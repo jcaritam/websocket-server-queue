@@ -1,0 +1,28 @@
+{
+  "name": "websocket-server-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "prettier": "prettier --write **/*.js"
+  },
+  "keywords": [
+    "socket",
+    "express",
+    "javascript"
+  ],
+  "author": "Joseph Antonio Carita",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.5"
+  }
+}
