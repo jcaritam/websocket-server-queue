@@ -66,6 +66,7 @@ class TicketControl {
       this.lastFour.splice(-1, 1);
     }
     this.saveDb();
+    return ticket;
   }
 }
 
